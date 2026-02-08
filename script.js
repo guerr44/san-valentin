@@ -45,9 +45,10 @@ function loadLetter(){
     <div class="letterPaper">
         <div class="mainTitle">Will you be my Valentín</div>
         <p>
-        Después de que el mundo hiciera su magia y los caminos se cruzaran,
-        quedó claro algo: quiero vivir este 14 de febrero contigo.
-        Mi corazón —la verdad— ya tomó su decisión.
+        Después de oraciones, risas y momentos contigo,
+        quedó claro algo: eres la persona a la que quiero siempre.
+        Mi corazón la verdad ya tomó su decisión, quiero pasar 
+        el 14 de febrero contigo.
         </p>
         <div class="navButtons">
             <button onclick="loadIntro()">Anterior</button>
@@ -179,3 +180,4 @@ function showVictory(){
 /* START */
 createFalling();
 loadLogin();
+
