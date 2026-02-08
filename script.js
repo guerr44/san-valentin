@@ -160,34 +160,15 @@ function moveNo(){
     document.getElementById("yesBtn").style.transform="scale(1.4)";
 }
 
-
 function showVictory(){
     document.body.className="pink";
 
     app.innerHTML = `
-        <div style="
-            width:90%;
-            max-width:1000px;
-            text-align:center;
-        ">
-            <h1 style="
-                font-size:70px;
-                color:#d90429;
-                margin-bottom:10px;
-            ">VAMOOOOOOOS 🎉💘</h1>
+        <div class="card" style="width:90%; max-width:800px;">
+            <h1 style="font-size:60px; color:#d90429;">VAMOOOOOOOS 🎉💘</h1>
+            <h2>Sabía que ibas a aceptar</h2>
 
-            <p style="font-size:22px; margin-bottom:25px;">
-                Sabía que ibas a aceptar
-            </p>
-
-            <video 
-                controls 
-                autoplay 
-                style="
-                    width:100%;
-                    border-radius:15px;
-                    box-shadow:0 10px 30px rgba(0,0,0,0.3);
-                ">
+            <video width="100%" controls autoplay style="margin-top:20px; border-radius:12px;">
                 <source src="baile.mp4" type="video/mp4">
             </video>
         </div>
@@ -198,4 +179,3 @@ function showVictory(){
 /* START */
 createFalling();
 loadLogin();
-
