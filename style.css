@@ -1,8 +1,9 @@
 body{
     margin:0;
     font-family:'Courier New', monospace;
-    overflow:hidden;
+    overflow-y:auto;   /* permite scroll vertical */
 }
+
 
 .pink{
     background: linear-gradient(135deg,#ffd1dc,#ffb6c1,#ffc0cb);
@@ -156,3 +157,4 @@ button{
     ">
     <source src="baile.mp4" type="video/mp4">
 </video>
+
