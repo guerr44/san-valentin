@@ -21,7 +21,7 @@ function loadLogin(){
     document.body.className="pink";
     app.innerHTML=`
     <div class="card">
-        <h1>Bienvenida 💖</h1>
+        <h1>Bienvenida mi camilita linda 💖</h1>
         <input placeholder="Tu nombre">
         <button onclick="loadIntro()">Registrarme</button>
     </div>`;
@@ -180,4 +180,5 @@ function showVictory(){
 /* START */
 createFalling();
 loadLogin();
+
 
